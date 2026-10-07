@@ -1,5 +1,5 @@
 <main class="min-h-svh">
-    <section class="h-svh relative">
+    <section class="min-h-svh relative">
         <img src="{{ asset('images/hero_img.png') }}"
             class=" -z-100 w-full fixed h-full grayscale inset-0 object-[50%_40%] object-cover" alt="">
         <div class="fixed inset-0 bg-radial-[at_0%_100%] from-primary/40 to-dark/80 -z-99"></div>
