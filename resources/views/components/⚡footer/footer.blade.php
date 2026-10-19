@@ -6,8 +6,8 @@
             <div class="flex gap-12 lg:gap-10 items-center justify-center text-white/70 flex-wrap">
                 <a href="https://www.facebook.com/ahzalea0777" target="_blank" class="hover:text-accent">Facebook</a>
                 <a href="#" target="_blank" class="hover:text-accent">Instagram</a>
-                <a href="#" target="_blank" class="hover:text-accent">About</a>
-                <a href="#" target="_blank" class="hover:text-accent">Contact</a>
+                <a href="{{ route('home') }}#about" class="hover:text-accent">About</a>
+                <a href="{{ route('home') }}#contact" class="hover:text-accent">Contact</a>
             </div>
             <p class="text-center text-white/30">© 2026 AF'S BEAUTY. ALL ARTISTRY RESERVED.</p>
         </div>

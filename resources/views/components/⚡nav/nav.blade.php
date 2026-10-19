@@ -3,11 +3,10 @@
         <a href="{{ route('home') }}" class="font-serif text-xl xl:text-3xl tracking-[-1.6px]" wire:navigate>AF<span
                 class="ml-1">’</span>s Beauty</a>
         <ul class="flex-1 gap-8 justify-center text-white/70 font-semibold hidden xl:flex">
+            <li><a href="{{ route('home') }}" class="menu-item" wire:navigate>Home</a></li>
             <li><a href="{{ route('gallery') }}" class="menu-item" wire:navigate>Gallery</a></li>
-            <li><a href="#" class="menu-item" wire:navigate>Services</a></li>
-            <li><a href="#" class="menu-item wire:navigate">About</a></li>
-            <li><a href="#" class="menu-item" wire:navigate>Testimonials</a></li>
-            <li><a href="#" class="menu-item" wire:navigate>Contact</a></li>
+            <li><a href="{{ route('home') }}#about" class="menu-item">About</a></li>
+            <li><a href="{{ route('home') }}#contact" class="menu-item">Contact</a></li>
         </ul>
         <a href="https://www.facebook.com/ahzalea0777" class="nav-btn btn-animation hidden xl:block">Book
             Now</a>
@@ -33,11 +32,10 @@
     <nav class='absolute tracking-[1.2px] flex flex-col items-center uppercase gap-4 w-full bg-dark/60 top-full xl:hidden'
         x-show="open" x-collapse.duration.1000ms>
         <ul class="flex flex-col items-center gap-4 mt-4 text-white/70">
+            <li><a href="{{ route('home') }}" class="menu-item" wire:navigate>Home</a></li>
             <li><a href="{{ route('gallery') }}" class="menu-item" wire:navigate>Gallery</a></li>
-            <li><a href="#" class="menu-item" wire:navigate>Services</a></li>
-            <li><a href="#" class="menu-item" wire:navigate>About</a></li>
-            <li><a href="#" class="menu-item" wire:navigate>Testimonials</a></li>
-            <li><a href="#" class="menu-item" wire:navigate>Contact</a></li>
+            <li><a href="{{ route('home') }}#about" class="menu-item">About</a></li>
+            <li><a href="{{ route('home') }}#contact" class="menu-item">Contact</a></li>
         </ul>
         <a href="#" class="nav-btn px-8 py-2 mb-4 btn-animation">Book
             Now</a>
